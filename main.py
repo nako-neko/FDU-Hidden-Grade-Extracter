@@ -187,6 +187,8 @@ class FDJWGLClient:
 if __name__ == "__main__":
     uis = ""
     pwd = ""
+    if uis == "" or pwd == "":
+        raise ValueError("请设置 UIS 用户名和密码")
     client = FDJWGLClient(uis, pwd)
     client.run()
     client.close()
