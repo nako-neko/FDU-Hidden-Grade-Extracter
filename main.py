@@ -78,7 +78,6 @@ class FDJWGLClient:
     """
 
     SHEET_URL = "https://fdjwgl.fudan.edu.cn/student/for-std/grade/sheet/"
-    # SHEET_URL = "https://fdjwgl.fudan.edu.cn/student/for-std/grade/sheet/info/415724?semester=465"
     FINAL_URL_TEMPLATE = (
         "https://fdjwgl.fudan.edu.cn/student/for-std/grade/sheet/info/{}?semester={}"
     )
